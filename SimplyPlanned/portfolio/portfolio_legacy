@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Simply Planned</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- link the webpage's stylesheet -->
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="../general_style.css" />
+
+	<!-- link the webpage's JavaScript file -->
+	<script src="/script.js" defer></script>
+  
+</head>
+
+<body>
+	<header>
+		<h1>History of Sean</h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="../home/index.html">Home</a></li>
+			<li><a href="../checklist/checklist.html">Checklist</a></li>
+			<li><a href="../portfolio/portfolio.html">Portfolio</a></li>
+			<li><a href="../game/Strategy.html">Game</a></li>
+		</ul>
+	</nav>
+
+	<main>
+    <h2>Overview</h2>
+	<p>Put graph and self proficient stuff here</p>
+  </main>
+</body>
+</html>

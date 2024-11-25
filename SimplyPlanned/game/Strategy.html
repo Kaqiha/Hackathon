@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>SimplyPlanned</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- link the webpage's stylesheet -->
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="../general_style.css" />
+
+	<!-- link the webpage's JavaScript file -->
+	<script src="/script.js" defer></script>
+  
+</head>
+<style>
+	canvas {
+            border: 2px solid black;
+            background: rgb(14, 159, 216);
+			border-radius: 5%;
+        }
+</style>
+<body>
+	<header>
+		<h1>Game</h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="../checklist/checklist.html">Checklist</a></li>
+			<li><a href="../portfolio/portfolio.html">Portfolio</a></li>
+			<li><a href="../game/Strategy.html"><b>Game</b></a></li>
+		</ul>
+	</nav>
+
+	<main>
+    <h2>Rhythm Game</h2>
+	<p style="background-color: rgb(224, 220, 237); border-radius: 15px; padding: 20px; box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);"> 
+		Relaxing Rhythm Game:
+		Unwind and relax with our calming rhythm game. Enjoy soothing melodies and 
+		gentle beats as you tap along to the music. Perfect for de-stressing and 
+		escaping the hustle of everyday life—no pressure, just a peaceful, rhythmic 
+		experience to help you recharge.
+	</p>
+	<br>
+	<br>
+	<canvas id="gameCanvas" width="400" height="600"></canvas>
+	<embed src="song.mp3" loop="true" hidden="true" autostart="true">
+    <script src="game.js"></script>
+  </main>
+</body>
+</html>

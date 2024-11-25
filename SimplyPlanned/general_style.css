@@ -1,0 +1,89 @@
+/* STYLE SECTIONING TAGS */
+* {   /* Reset the margin and padding for all the elements */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center; 
+  color: #003046; /* Default text color */
+  background-color: #D7F9F4; /* Background color */
+}
+
+header {
+  background-color: aliceblue;
+  color: white;
+  text-align: center; 
+  
+}
+
+main {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 20%;
+  margin-left: 20%;
+  text-align: center; 
+}
+
+/* STYLE TEXT */
+p {
+  font-size: 1.2em;
+  text-align: left; 
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+h1 {
+  font-size: 2.2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: navy;
+}
+
+h2 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#intro-text {
+  font-size: 1.2em;
+  text-align: center; 
+  color: black;
+}
+
+/* STYLE IMAGES */
+#main-img  {    /* Style image at the top website */
+  border-radius: 50%;
+  max-height: 250px;
+  margin-bottom: 2em;
+  border: 3px solid white;
+}
+
+.port-img {     /* Style the portfolio images */
+  border-radius: 10%;
+  max-height: 20em; 
+}
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  padding: 1em;
+  background-color: navy;
+  overflow: hidden;
+}
+
+li {
+  display: inline;
+}
+
+li a {    /* Style hyperlink text in nav bar */
+  color: white;
+  text-decoration: none;
+  padding: 1em;
+  font-size: 1.3em;
+}
+
+li a:hover {
+  background-color: #43D6B9;
+}

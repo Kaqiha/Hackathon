@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+} 
+.planner-container {
+max-width: 600px;
+margin: 20px auto;
+padding: 20px;
+background-color: rgb(224, 220, 237);
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h1 {
+text-align: center;
+font-size: 24px;
+}
+.day-entry {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 0;
+border-bottom: 1px solid #ddd;
+}
+.day-entry:last-child {
+border-bottom: none;
+}
+.day-label {
+font-weight: bold;
+}
+.rating {
+display: flex;
+gap: 5px;
+}
+.rating button {
+padding: 5px 10px;
+border: none;
+border-radius: 5px;
+background-color: white;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+.rating button.selected {
+background-color: #4caf50;
+color: #fff;
+}
+.rating button:hover {
+background-color: #87cefa;
+}

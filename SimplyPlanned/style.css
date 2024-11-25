@@ -1,0 +1,15 @@
+#intro-text {
+    height: 30px; 
+    border-radius: 10px; 
+    background-color: rgb(224, 220, 237); 
+    height: auto; 
+    color: black; 
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+body {
+    background-color: #D7F9F4; 
+    background-image: url('../assets/background.png'); 
+    background-size: cover; 
+    background-position: center;
+    height: 50%;
+}

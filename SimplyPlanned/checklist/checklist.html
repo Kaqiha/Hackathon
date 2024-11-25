@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>SimplyPlanned</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- link the webpage's stylesheet -->
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="../general_style.css" />
+
+	<!-- link the webpage's JavaScript file -->
+	<script src="script.js" defer></script>
+  
+</head>
+
+<body style="background-color: url('barber.png');">
+
+	<header>
+		<h1>Your Checklist</h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="../checklist/checklist.html"><b>Checklist</b></a></li>
+			<li><a href="../portfolio/portfolio.html">Portfolio</a></li>
+			<li><a href="../game/Strategy.html">Game</a></li>
+		</ul>
+	</nav>
+
+	<br>
+	<br>
+
+	<main>
+		<div class="box" style="font-weight: 300;">
+			<p style="font-family: sans-serif; background-color: rgb(224, 220, 237); border-radius: 15px; padding: 20px; box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);">
+				This is your personal task manager where you can easily add and track tasks.
+				Whether you're organizing your day, managing a project, or simply keeping track
+				of things you need to do, this checklist helps you stay on top of your tasks.
+			</p>
+		</div>
+		<br>
+
+		<div class="box" style="background-color: rgb(224, 220, 237); border-radius: 15px; padding: 20px; box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);">
+		<form id="taskForm">
+			<div>
+				<label for="Tasks"><b>Enter your tasks: </b></label>
+				<input type="text" id="Tasks" placeholder="            Your task" style="height: 30px; border-radius: 10px;" required>
+			</div>
+
+			<br>
+
+			<div>
+				<label for="Rdate"><b>Date: </b></label>
+				<input type="date" id="Rdate" name="Rdate" style="height: 30px; border-radius: 10px;" required>
+			</div>
+
+			<br>
+
+			<div>
+				<button type="submit" style="height: 30px; border-radius: 10px; width: 70px; background-color: black; color: aqua;">Add Task</button>
+			</div>
+		</form>
+
+		</div>
+		
+		<br>
+		<div class="container">
+			<h1>Your Tasks</h1>
+			<ul id="taskList">
+			</ul>
+		</div>
+	</main>
+</body>
+</html>
